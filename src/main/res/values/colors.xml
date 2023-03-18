@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color-->
+
+    <!-- https://gist.github.com/sghael/2930380 -->
+
+    <!--color name="colorPrimary">#7986CB</color>
+    <color name="colorPrimaryDark">#7986CB</color>
+    <color name="colorAccent">#64B5F6</color-->
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="dark_gray">#A9A9A9</color>
+</resources>

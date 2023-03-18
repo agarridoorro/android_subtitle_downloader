@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FileListFragment">
+
+    <fragment android:id="@+id/FileListFragment"
+        android:name="com.agorro.subtitledownloader.FileListFragment"
+        tools:layout="@layout/fragment_file_list">
+        <argument
+            android:name="com.agorro.subtitledownloader.extra.EXTRA_INIT"
+            app:argType="integer"
+            android:defaultValue="1" />
+        <action
+            android:id="@+id/action_FileListFragment_to_SubtitleListFragment"
+            app:destination="@id/SubtitleListFragment" />
+    </fragment>
+    <fragment android:id="@+id/SubtitleListFragment"
+        android:name="com.agorro.subtitledownloader.SubtitleListFragment"
+        tools:layout="@layout/fragment_subtitle_list">
+        <action
+            android:id="@+id/action_SubtitleListFragment_to_FileListFragment"
+            app:destination="@id/FileListFragment" />
+    </fragment>
+</navigation>

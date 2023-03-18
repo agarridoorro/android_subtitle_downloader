@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_cat_connection"
+        android:key="connection_category">
+        <EditTextPreference
+            android:key="server_ip"
+            android:title="@string/pref_tit_ip"
+            android:summary="@string/pref_sum_ip"
+            android:defaultValue=""/>
+        <EditTextPreference
+            android:key="user_domain"
+            android:title="@string/pref_tit_domain"
+            android:summary="@string/pref_sum_domain"
+            android:defaultValue=""/>
+        <EditTextPreference
+            android:key="user_username"
+            android:title="@string/pref_tit_username"
+            android:summary="@string/pref_sum_username"
+            android:defaultValue=""/>
+        <EditTextPreference
+            android:key="user_password"
+            android:title="@string/pref_tit_password"
+            android:summary="@string/pref_sum_password"
+            android:defaultValue=""/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/pref_cat_other"
+        android:key="other_category">
+        <EditTextPreference
+            android:key="series_folder"
+            android:title="@string/pref_tit_folder"
+            android:summary="@string/pref_sum_folder"
+            android:defaultValue=""/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>
